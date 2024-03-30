@@ -31,8 +31,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE ||
 
 
 global.devs = "254728782591,254762016957" // Do Not Change Else Bot Won't Work After Deploying
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254728782591,254762016957";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254728782591,254762016957";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "918787651195";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "918787651195";
 
 
 
@@ -54,7 +54,7 @@ global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "true"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254728782591,254762016957,254110853827";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "918787651195";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
@@ -82,7 +82,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "Gifted-MD",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "ɢɪғᴛᴇᴅ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It's Gifted",
+  ownername:process.env.OWNER_NAME|| "Awmtea Polythene",
 
 
   errorChat : process.env.ERROR_CHAT || "",
